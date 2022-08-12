@@ -14,6 +14,7 @@ def app():
     html_file=open('D:/Abhinaya/GitHub/automated-EDA-Lux-API/my_viz.html', 'r', encoding='utf-8')
     html_content=html_file.read()
     #print(html_content)
-    components.html(html_content, width=800, height=350)
+    components.html(html_content, width=1000, height=800)
+
 
 app()
